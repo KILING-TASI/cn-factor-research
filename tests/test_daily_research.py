@@ -68,6 +68,10 @@ def test_ols_residual_is_orthogonal():
     assert sum(v*math.log(row['marketCap']) for v,row in zip(r,rows))==pytest.approx(0,abs=1e-10)
     assert sum(v for v,row in zip(r,rows) if row['industry']=='a')==pytest.approx(0,abs=1e-10)
 
+def test_industry_per_security_cannot_expand_unbounded_design():
+    rows=[dict(marketCap=100+i,industry=str(i),factor=i) for i in range(1000)]
+    with pytest.raises(ValueError,match='矩阵规模'):residuals(rows)
+
 def test_audit_retains_raw_and_neutralized():
     r=review(sample('audit'));assert len(r['candidates'])==8
     assert all(set(c['versions'])=={'raw','neutralized'} for c in r['candidates'])

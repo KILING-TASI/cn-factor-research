@@ -7,9 +7,12 @@ from .factor_research import panel,ranks,corr
 
 def residuals(rows):
     """OLS via twice-reorthogonalized QR; deficient design is explicitly blocked."""
-    n=len(rows);industries=sorted({r['industry'] for r in rows})
-    cap=[math.log(finite(r['marketCap'])) for r in rows]
+    n=len(rows)
     if any(not isinstance(r['industry'],str) or not r['industry'] for r in rows):raise ValueError('行业身份缺失')
+    industries=sorted({r['industry'] for r in rows})
+    if len(industries)>64 or n*(len(industries)+1)>250000:raise ValueError('中性化类别或矩阵规模超出本轮上限')
+    if n<=len(industries)+2:raise ValueError('中性化样本不足以保留残差自由度')
+    cap=[math.log(finite(r['marketCap'])) for r in rows]
     sd=statistics.pstdev(cap)
     if not sd:raise ValueError('市值暴露为常数，无法识别市值中性化')
     columns=[[1.0]*n,[(x-statistics.mean(cap))/sd for x in cap]]+[[float(r['industry']==industry) for r in rows] for industry in industries[1:]]
@@ -65,7 +68,9 @@ def review(spec):
     for c in candidates:
         direction=c['direction']
         if type(direction)!=int or direction not in (-1,1):raise ValueError('方向须事先声明为1或-1')
-        p=c['panel'];base=panel(p)
+        p=c['panel']
+        if not isinstance(p['rows'],list) or not 1<=len(p['rows'])<=5000:raise ValueError('验收候选样本须1至5000')
+        base=panel(p)
         if any(instant(r['signalAt'])>instant(spec['asOf']) for r in p['rows']):raise ValueError('候选信号晚于复查截止')
         same_day={}
         for r in p['rows']:same_day.setdefault(r['signalDate'],set()).add(instant(r['signalAt']))
