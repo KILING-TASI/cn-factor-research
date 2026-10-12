@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "factor-migration-provenance/1",
+  "date": "2026-10-12",
+  "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+  "files": [
+    {
+      "localPath": "src/cn_factor_research/review_io.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/review_io.py",
+      "sourceNormalizedSha256": "c8e995fff7830ca02127ab5ba4605aa60e99c358a86635dece08ba92ab8afea5",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/factor_contract.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/factor_contract.py",
+      "sourceNormalizedSha256": "73a4cbbfa60b5744aa8148639f806d0f113bf6c02bb77f9d198023d75b275ca0",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/factor_research.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/factor_research.py",
+      "sourceNormalizedSha256": "fb0bee59560e230b2a937a7caa63b630344bec47dcc58c33aa7af106c634febc",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/cnn_contract.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/cnn_contract.py",
+      "sourceNormalizedSha256": "897a37ab179b6ed05902e90bcf2cb997f9c41bdea50da6d639b76bc4bfcd0364",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/cnn_engine.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/cnn_engine.py",
+      "sourceNormalizedSha256": "50cb9d1205b5c778d3cf5d701ac03df3c308e55f3a544af80e4160b4b190175f",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/cnn_cli.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/cnn_cli.py",
+      "sourceNormalizedSha256": "765520fead72f7addf65071cf33cd5403c370fdbad502e8efb7ca7e43164fe12",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/candle_patterns.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/candle_patterns.py",
+      "sourceNormalizedSha256": "af04856a17f47b5344da50bc1a480ce2c5067f0015e80403ff73e2e45c3a43d2",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    },
+    {
+      "localPath": "src/cn_factor_research/candle_comparison.py",
+      "sourceRepository": "portfolio-decision-engine",
+      "sourceCommit": "cd6a71a3015d060823ef58819040ada6ce5a5292",
+      "sourcePath": "src/portfolio_engine/candle_comparison.py",
+      "sourceNormalizedSha256": "53a6a3e7127b89a4482be252e3ee6ccb671cefa3473d6d3f2f4ee1c7340ef2b0",
+      "migration": "Namespace and entry labels only; unchanged mathematical contracts",
+      "license": "MIT"
+    }
+  ],
+  "scope": "Original MIT project code; source and namespace adjustments retained. No public-market data copied into repository."
+}

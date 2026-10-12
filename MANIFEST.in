@@ -1,0 +1,4 @@
+include README.md README.en.md SKILL.md CNN_RESEARCH.md PATTERN_RESEARCH.md FACTOR_REVIEW.md MIGRATION.md MIGRATION_SOURCE.json CHANGELOG.md THIRD_PARTY_NOTICES.md SECURITY.md catalog.json LICENSE try_demo.py
+recursive-include licenses *
+recursive-include examples *.json *.py
+recursive-include tests *.py
