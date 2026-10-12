@@ -2,7 +2,7 @@
 
 从声明行情生成信号，核对K线形态、CNN预测与因子面板，保留参数、模型和证据缺口。
 
-[原创代码 MIT](LICENSE) · [发行说明](https://github.com/KILING-TASI/cn-factor-research/releases/tag/v0.2.0) · [运行检查](https://github.com/KILING-TASI/cn-factor-research/actions) · [English](README.en.md)
+[原创代码 MIT](LICENSE) · [发行说明](https://github.com/KILING-TASI/factor-research/releases/tag/v0.2.0) · [运行检查](https://github.com/KILING-TASI/factor-research/actions) · [English](README.en.md)
 
 当前发布：**v0.2.0 · 普通发行版**。Python **3.10+**；基础功能无必需第三方依赖，训练和预测按需安装 `[cnn]`。
 
@@ -18,7 +18,7 @@
 
 ## 快速开始
 
-下载[完整源码ZIP](https://github.com/KILING-TASI/cn-factor-research/releases/download/v0.2.0/cn-factor-research-v0.2.0-source.zip)，解压后在该目录运行：
+下载[完整源码ZIP](https://github.com/KILING-TASI/factor-research/releases/download/v0.2.0/cn-factor-research-v0.2.0-source.zip)，解压后在该目录运行：
 
 ```console
 python try_demo.py --out-dir reports/first-demo
@@ -26,7 +26,7 @@ python try_demo.py --out-dir reports/first-demo
 
 命令会给出HTML路径。教学使用本仓原创合成样本，不自动下载真实行情，不需要PyTorch；重复运行使用新目录。
 
-使用Git时运行 `git clone https://github.com/KILING-TASI/cn-factor-research.git`，再进入 `cn-factor-research` 目录。
+使用Git时运行 `git clone https://github.com/KILING-TASI/factor-research.git`，再进入 `factor-research` 目录。
 
 量价研究的完整合成教学：`python try_research.py --out-dir reports/first-research`。覆盖因子、冻结验收、事件与缺口，基础功能仍无必需第三方依赖。
 
@@ -40,7 +40,8 @@ CNN另装 `python -m pip install ".[cnn]"`；CPU安装细节见 [CNN研究](CNN_
 
 | 身份 | 名称 |
 |---|---|
-| GitHub仓库 / Python发行包 / 主要命令 / Skill | `cn-factor-research` |
+| GitHub仓库 | `factor-research` |
+| Python发行包 / 主要命令 / Skill（保留兼容） | `cn-factor-research` |
 | Python模块 | `cn_factor_research` |
 
 先确认来源、日期、当期成员、成交量股数和价格口径，再运行 `cnn validate` 或 `pattern identify`。当前沪深300名单不能回填全部历史。用户自带文件即可研究；数据仓提供可选取数，工作台提供可选组织与解释。

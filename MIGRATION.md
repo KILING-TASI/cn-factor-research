@@ -5,7 +5,7 @@
 | 工具 | 负责 |
 |---|---|
 | cn-data-adapters | 取数、来源、单位、历史可得性、原始快照 |
-| cn-factor-research | 因子、CNN、K线规则、面板、试验与滚动验证 |
+| factor-research | 因子、CNN、K线规则、面板、试验与滚动验证 |
 | portfolio-decision-engine | 组合敞口、成本、现金和约束 |
 | research-workbench | 组织问题、资料、解释和跨工具导航 |
 
