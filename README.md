@@ -44,6 +44,8 @@ CNN另装 `python -m pip install ".[cnn]"`；CPU安装细节见 [CNN研究](CNN_
 | Python发行包 / 主要命令 / Skill（保留兼容） | `cn-factor-research` |
 | Python模块 | `cn_factor_research` |
 
+仓库已更名为 `factor-research`；安装包、命令和 Skill 名称保留兼容。v0.2.0 的下载文件名也保留原名，使用上方链接即可。
+
 先确认来源、日期、当期成员、成交量股数和价格口径，再运行 `cnn validate` 或 `pattern identify`。当前沪深300名单不能回填全部历史。用户自带文件即可研究；数据仓提供可选取数，工作台提供可选组织与解释。
 
 ## 能力与边界
