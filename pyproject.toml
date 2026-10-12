@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cn-factor-research"
-version = "0.1.0"
+version = "0.2.0"
 description = "可解释的量化因子、K线形态与CNN研究"
 readme = "README.md"
 license = "MIT"
-license-files = ["LICENSE", "licenses/**/*.txt", "licenses/**/*.md", "licenses/**/[Ll][Ii][Cc][Ee][Nn][Ss][Ee]*", "licenses/**/*.rst"]
+license-files = ["LICENSE", "licenses/**/*.txt", "licenses/**/[Ll][Ii][Cc][Ee][Nn][Ss][Ee]*", "licenses/**/*.rst"]
 requires-python = ">=3.10"
 dependencies = []
 
@@ -23,10 +23,12 @@ cn-factor-research = "cn_factor_research.__main__:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/cn-factor-research" = ["README.md", "README.en.md", "SKILL.md", "CNN_RESEARCH.md", "PATTERN_RESEARCH.md", "MIGRATION.md", "MIGRATION_SOURCE.json", "CHANGELOG.md", "THIRD_PARTY_NOTICES.md", "SECURITY.md", "FACTOR_REVIEW.md", "catalog.json"]
+"share/cn-factor-research" = ["README.md", "README.en.md", "SKILL.md", "CNN_RESEARCH.md", "PATTERN_RESEARCH.md", "MIGRATION.md", "MIGRATION_SOURCE.json", "CHANGELOG.md", "THIRD_PARTY_NOTICES.md", "SECURITY.md", "FACTOR_REVIEW.md", "catalog.json", "DAILY_RESEARCH.md", "RESEARCH_LIBRARY.json"]
 "share/cn-factor-research/licenses" = ["licenses/dependency-license-snapshot.json"]
 "share/cn-factor-research/examples/cnn-teaching" = ["examples/cnn-teaching/train.json", "examples/cnn-teaching/patterns.json", "examples/cnn-teaching/make_example.py", "examples/cnn-teaching/make_patterns.py", "examples/cnn-teaching/acceptance-record.json", "examples/cnn-teaching/pattern-acceptance-record.json"]
 "share/cn-factor-research/examples/expansion-teaching" = ["examples/expansion-teaching/panel.json", "examples/expansion-teaching/trials.json"]
+
+"share/cn-factor-research/examples/daily-teaching" = ["examples/daily-teaching/daily.json", "examples/daily-teaching/audit.json", "examples/daily-teaching/events.json", "examples/daily-teaching/readiness.json", "examples/daily-teaching/make_example.py"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

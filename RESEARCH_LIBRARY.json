@@ -1,0 +1,709 @@
+{
+  "schemaVersion": "research-reference-library/1",
+  "updatedAt": "2026-10-12",
+  "fileCount": 76,
+  "distinctFileDigests": 76,
+  "scope": "书目、读取状态与来源身份冲突；不包含PDF、OCR正文、图表、研报收益或真实行情；文件数不等于独立方法数",
+  "rights": "原研报与数据权利归各自权利人；目录不授予转载或数据再分发许可",
+  "references": [
+    {
+      "id": "gs-01",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（一）：如何将隔夜涨跌变为有效的选股因子？——基于对知情交易者信息优势的刻画-20220426",
+      "pdfPages": 20,
+      "sha256": "8d872458ba52e1834ed82147155c0ff6c2048586dcfd23fa7a4784e8eb890086",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-02",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（二）：不同交易者结构下的动量与反转-20221024",
+      "pdfPages": 20,
+      "sha256": "60af175284599c033b02108a3c0fd4987d2ac0f7be4a259395c1f588bbc16350",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-03",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（三）：如何基于RSI技术指标构建有效的选股因子？-20230306",
+      "pdfPages": 13,
+      "sha256": "ab3bc75a66349510f95876f3b3b2c2f15cd9947af7af182c1ebd80a0b886f0fd",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-04",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（四）：高 低位放量：从事件驱动到选股因子-20231219",
+      "pdfPages": 19,
+      "sha256": "793181453aebfd682554aab5352e1e5a5db0162d8e1dbe1d2d822899442b39ad",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-05",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（五）：基于趋势资金日内交易行为的选股因子-20240528",
+      "pdfPages": 15,
+      "sha256": "3bba09713dd3b1cd6e71c6cf45ee4d12cfd8ce780201cfb8ca89e015df1a4fb8",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-06",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（六）：创新高股票中的Alpha-20240626",
+      "pdfPages": 17,
+      "sha256": "2705bee6bf1736eb1be463204bce9bcc26c1eec34b6d7fd41da436e72d8274ce",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-07",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（七）：盲目追随趋势资金的极端交易行为分析——羊群效应的识别与因子构建-20240806",
+      "pdfPages": 15,
+      "sha256": "5938f116c2104a101582c9189ca1cbd12442528dab7b55a5684b2f7853e8a6a3",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-08",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（八）：逐笔买卖差异中的选股信息——条件成交不平衡因子-20241009",
+      "pdfPages": 16,
+      "sha256": "24450378e3ab26f603db072e13cf558576fea600a2a83da47960e427795ce10c",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-09",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（九）：以构建羊群效应因子簇为例-Memory Map在因子生产加速上的应用-20241120",
+      "pdfPages": 25,
+      "sha256": "e2cf65d2f7261d49ca5542e1dbd2dca4abddadceadc23a1b926f3606981f2ff6",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-10",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（十）：基于Memory Map的分段读取性能优势-订单簿资金流因子簇的构建与生产加速-20250211",
+      "pdfPages": 24,
+      "sha256": "fab79563afbaa2df2031d43989d1dfd8c85e45ae14e47eabe37f4aa13367a6cb",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-11",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（十一）：基于趋势资金日内交易行为的事件驱动策略-20250226",
+      "pdfPages": 18,
+      "sha256": "bbf9f3f3b173d438838f6bacfabb617f99ec5bdaa202bf539c42aa6c4c482a1d",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-12",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（十二）：“高频数据+离散化构建方式”在因子研究中的重要性-20250514",
+      "pdfPages": 24,
+      "sha256": "56179d3f0d6eb80f1b889264d5f1570f08f9b1f04abebde271cc852cb4f9eafa",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-13",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（十三）：事件簇：量价事件驱动信号的规模化生产-以趋势资金入场信号为例-20250803",
+      "pdfPages": 18,
+      "sha256": "128103b633df0e0c630c7a1f9523f80f44164b0fdbfeeca60f21067cd43f488c",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-14",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究(十四)：基于流动性冲击事件的逐笔羊群效应因子——“高频数据%2b离散化”理念的具体实践-251113--24页",
+      "pdfPages": 24,
+      "sha256": "872252e994e37debdd5cc76919a476c049b822104ea5e0c6814e2457edd79c81",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-15",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究(十五)，高／低位放量事件簇，正负向信号的有机结合-251126--21页",
+      "pdfPages": 21,
+      "sha256": "97b8477be98b584768c5f4ad2effaa1d91e3a27c5c2b68f122c4dcd4abbf33e2",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "PDF正文提取与重点段落核对"
+    },
+    {
+      "id": "gs-16",
+      "series": "国盛证券-量价淘金",
+      "filenameTitle": "国盛证券-“量价淘金”选股因子系列研究（十六），异动雷达事件簇，寻找“与众不同”的个股-20260311-24页",
+      "pdfPages": 24,
+      "sha256": "7b79ffb216aee5bfa88dcd65e259be23c29ffde43b9203ec1b43eaa836cba89e",
+      "readingStatus": "方法与数据需求重点核对；未复现绩效",
+      "textMethod": "OCR并检查关键页"
+    },
+    {
+      "id": "fz-01",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券- 多因子选股系列研究之十：推动个股价格变化的因素分解与“花隐林间”因子",
+      "pdfPages": 17,
+      "sha256": "9575cc47c391cefbe976ad41326964b5e9ed18ddb28bee9e49cb26769d91793d",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-02",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之九：个股成交额的市场跟随性与“水中行舟”因子-20230215-",
+      "pdfPages": 14,
+      "sha256": "7736905dca6c42b90405b595979f36567736a3785f4c6d1040dea18c1cdb501c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-03",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之二十一：订单簿视角的开盘分歧刻画与跳空博弈因子-20241130-",
+      "pdfPages": 20,
+      "sha256": "8d0af27e3fb5b24df34ad4a2ae7898b9653aa9c6e3e4a31294ab3a56de120ee3",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-04",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之二十：30秒、15秒频数据对分钟频因子能否带来信息增量？-20241129-",
+      "pdfPages": 20,
+      "sha256": "c5a5bf573ca03724c49ab2179ca455fba08159f36da676497579a56c0a20afec",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-05",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之十七：新闻中的有限注意力和“凸显效应”因子构建-20240412-",
+      "pdfPages": 20,
+      "sha256": "41e130f733d587e286af59da96f123a19f0bffb2cee3eb4aeb1c2e6f1b75fa59",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-06",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之十五：超预期陷阱与估值动态及“预期惯性”因子构建-20231223-",
+      "pdfPages": 23,
+      "sha256": "3bc07d5cb10b754fe675d6265165857bb0b5597462b5b52263a59e48e47f06bb",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-07",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之十八：成交量激增与骤降时刻的对称性与“一视同仁”因子构建-20240523-",
+      "pdfPages": 17,
+      "sha256": "5e8111d1fafc8e859e159c443e5dced335835c288cab9aa0db911977e551536c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-08",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之十六：日内协同股票性价比度量与“协同效应”因子构建-20240319-",
+      "pdfPages": 18,
+      "sha256": "642ed5578aac54870792ca125cb14bcfc741482fcb9efc1d549af802c15854c7",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-09",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券--多因子选股系列研究之十四：股票日内多空博弈激烈程度度量与“多空博弈”因子构建-20231129-",
+      "pdfPages": 21,
+      "sha256": "9a36c2cba730273319123985916ffc0122f1fa57f841438b4487d95362469626",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-10",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之一：成交量激增时刻蕴含的 alpha信息",
+      "pdfPages": 15,
+      "sha256": "fec102740cf43454e58c541a73dd553583d1da43a00b724358c4c094c0b484fc",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-11",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之七：基于 Wind 偏股混合型基金指数的增强选股策略",
+      "pdfPages": 19,
+      "sha256": "5ead6b0c8932ec0435a6349000e1c7e2a41626f95e3bf7c278edc455674e769c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-12",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之三：个股波动率的变动及 “勇攀高峰”因子构建",
+      "pdfPages": 18,
+      "sha256": "81b9a2f0fe1a0ee1d4d72997154422efbb3e719c04e120a967a91ed08fcc42a7",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-13",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之二十三：个股日内成交量分布特征与日内流动性弹性刻画-20250827",
+      "pdfPages": 21,
+      "sha256": "87503e72947f19e33054e43cfa5bf2e0d6c359c24e668cdf24b36939b4c3768e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "fz-14",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之二十二，股票舆情热度的反转效应与“热点反应”因子构建-20250312",
+      "pdfPages": 20,
+      "sha256": "1f2c43007402dbe098ad7d9b0fb78e164b21684d5cad212c96e3fd175c7e34e1",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "fz-15",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之二：个股成交量的潮汐变化及 “潮汐”因子构建",
+      "pdfPages": 15,
+      "sha256": "ee4bd06c6476c82e71a08d4d341f43cdef12480f33968b58ae49950ca8d57747",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-16",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之五：波动率的波动率与投资者模糊性厌恶",
+      "pdfPages": 19,
+      "sha256": "bf3c5855daffc872725904cab4d59f235f651dcd071c9fc9d44c9772952dca0e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-17",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之八：显著效应、极端收益扭曲决策权重和“草木皆兵”因子",
+      "pdfPages": 18,
+      "sha256": "9f4bcc98e1371c57501aeebf8d28344896cbd392c6d260c6aa2c540a0381b7f4",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-18",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之六：个股股价跳跃及其对振幅因子的改进",
+      "pdfPages": 17,
+      "sha256": "b95ea21d76e80e0f04ddb20bd67525300e12ee71991e4ca350a353b41afcc02a",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-19",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之十一：大单成交后的跟随效应与“待著而救”因子",
+      "pdfPages": 19,
+      "sha256": "82dd62d493fba29197f9f6e38b32744c8d7816dbccff041167f551e09a009b59",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-20",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之十三：中证2000指数增强策略及小盘价值、成长、均衡组合构建-20230920-24页",
+      "pdfPages": 24,
+      "sha256": "430b88927cd0665c94948d9fbe7f6cee5cb75a96b3a092715dc8c3716286123e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-21",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之十九：个股交易放量期间的买入强度刻画与“激流勇进”因子构建-240829-17页",
+      "pdfPages": 17,
+      "sha256": "ef57d51d94ffc92779f177cc71e74c75821f05665b45d6166938b0127b145b5a",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-22",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之十二：剥离分析师预期调整中的动量效应与真知灼见因子构建",
+      "pdfPages": 20,
+      "sha256": "ef3456cefb92bd09aec1daa1a9a4cedf36ca6c6f661b830445f840dc6c125a1b",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "fz-23",
+      "series": "方正证券-多因子选股系列研究",
+      "filenameTitle": "方正证券-多因子选股系列研究之四：效应的识别及“球队硬币”因子构建",
+      "pdfPages": 26,
+      "sha256": "531acd135d9110878e5f44ba943b2ac69512e94c6bf179c760261d60e000b33b",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "zs-01",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之一：估值因子的内涵与逻辑-20241206-43页",
+      "pdfPages": 43,
+      "sha256": "197c1eae89a2fe3ea8149ff377abe538990867f8db7409cc855bb38dd86e50d5",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "zs-02",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之三：基于自由现金流的投资全解析---250724-37页",
+      "pdfPages": 37,
+      "sha256": "29da8155a5349356d809aaabe544823b01dc9af02ee931db1fd182c9ae766e7d",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "zs-03",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之二：基于财务健康指标体系的投资全解析-20250318",
+      "pdfPages": 40,
+      "sha256": "df557fb04ce8e3d989ccfe71ee16cd60a40e627b07c584e781c5b7f202aa4904",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "zs-04",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之五：基于波特五力的投资全解析-20260310",
+      "pdfPages": 37,
+      "sha256": "e9642a22761a44d7af2517229d1aa881370c9f2aec350d091841fc6636256293",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "zs-05",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之六：成长投资全解析-20260820-",
+      "pdfPages": 48,
+      "sha256": "f5ba11cfc430477e83f2772075e332d6f9f7a174385cd987d7e9bf490172425e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "zs-06",
+      "series": "招商证券-基本面量化",
+      "filenameTitle": "招商证券-基本面量化系列研究之四：企业盈利能力评价指标的演进与优化-20251121",
+      "pdfPages": 37,
+      "sha256": "02d3ad54f0916ad8e94bb54ef31e10070b0e819d1f2e52968e093a4110d55d1c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-01",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之一：资本利得突出量CGO与风险偏好-2017.6.3",
+      "pdfPages": 37,
+      "sha256": "ed41f1b9eb7a2479e992ccd468550a6c87ecf092b8bf46ef121e6690d5fe6700",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-02",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之七：凸显理论之A 股“价”“量”应用-2023.3.23",
+      "pdfPages": 30,
+      "sha256": "174fe612bc9e042052162fdcebf980ae2fbb4f939a59deb1a1e516fad25d7118",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-03",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之三：结合凸显理论的选股研究-2018.1.30",
+      "pdfPages": 18,
+      "sha256": "8bc68b17f65ef910123175a08f07dc96f867731a07ccbaccbc00cb3c9eef4f8c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-04",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之九：凸显效应的高频应用-2024.2.27",
+      "pdfPages": 28,
+      "sha256": "abe1c7841430115d9c4e9657d5083948c57a421c5f7df1ba1100e187d74c7eb7",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-05",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之二：结合凸显理论的选股研究-2018.1.15",
+      "pdfPages": 36,
+      "sha256": "82b78009f83ce868e146eacff846672694693dbcca7dba3de7d233a2343a2749",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-06",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之五：情绪Beta因子在选股中的应用-2019.510",
+      "pdfPages": 26,
+      "sha256": "d335352f9078d0d882c40131cf8563adba8622ca7935440522af5e8c29fde44c",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-07",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之八：基于涨跌停溢出效应的因子研究-2023.11.21",
+      "pdfPages": 23,
+      "sha256": "7f3a627144cfbc6b606a16d6f68b90ecb5194e362fdb93231b87d0dfac461fe3",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-08",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之六：A股羊群效应投资策略研究-2020.11.2",
+      "pdfPages": 35,
+      "sha256": "e04c0737b0b7a1126d41e52505f3f94f877653d9acdaa3fac2c29739f9499fc0",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-09",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融因子研究之四：基于V型处置效应的选股策略研究-2019.3.7",
+      "pdfPages": 25,
+      "sha256": "2c6197c42298cbdb880959a3b0232a569ae536430de51a28868ab22720cb4de6",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "gf-10",
+      "series": "广发证券-行为金融因子研究",
+      "filenameTitle": "广发证券-行为金融研究系列之十：资本利得突出量的多频率测算-240726",
+      "pdfPages": 30,
+      "sha256": "80f23a35887958194743198e54156681c925ac063d9fa77bb5dc5a02e0fdec37",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "cj-01",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（七）：高频因子（二），结构化反转因子-190601-24页",
+      "pdfPages": 24,
+      "sha256": "158b62e4dd8ed2ad11d9b5c898477a96de39c447a54a7659235cc3f21140a050",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-02",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（八）：高频因子（三），高频因子研究框架-190721-26页",
+      "pdfPages": 26,
+      "sha256": "c727c09994ef2c0d8a2e96c58bd03706c54e388872975a2b4cc91132c8f7983d",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-03",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十一）：高频因子（六），特异视角下的波动率因子-191013-26页",
+      "pdfPages": 26,
+      "sha256": "4df5fea8b81856546aed6727bab22c766092645a5f4dc3a153b227f475a77ef8",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-04",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十七）：高频因子（十一），高频数据的微观划分-210322-21页",
+      "pdfPages": 21,
+      "sha256": "4a79f5f14023b5ff0fc0698cb67e3475414a3dafacd2c12ee5f42cc8b896683e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-05",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十三）：高频因子（八），高位成交因子，从量价匹配说起-20200916",
+      "pdfPages": 20,
+      "sha256": "10bc584ebbf700e7c8d5a201537830710d3fd19abd88e7a5ae1847604dd87976",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-06",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十二），高频因子（七）：分布估计下的主动成交占比-20200810",
+      "pdfPages": 22,
+      "sha256": "0851715f7e5f25b909a197a8163ac390b867b19230c86b5238d57b5813faa3d1",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-07",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十八）：高频因子（十二），日内与日间-210606-21页",
+      "pdfPages": 22,
+      "sha256": "b4866838930ca4b1b2fd823f71ff16a202f3a615aa995812bb1d3efd686c936a",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收",
+      "documentTitleChecked": "高频因子（七）：分布估计下的主动成交占比",
+      "documentDateChecked": "2020-08-10",
+      "identityStatus": "文件名与正文冲突；按正文身份使用，不当作文件名对应的新研究",
+      "pageCountNote": "文件名标注21页，实际PDF22页；不能仅凭文件名认定完整性"
+    },
+    {
+      "id": "cj-08",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十四）：高频因子（九），高频波动中的时间序列信息-20201012",
+      "pdfPages": 22,
+      "sha256": "33daf0621e403bcde73a2bcdfd7f828eb6cbfa98fcb1fdadd818c847ab182b28",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-09",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-基础因子研究（十）：高频因子（五），高频因子和交易行为-190810-22页",
+      "pdfPages": 22,
+      "sha256": "c3e8354ca8c684928c81a24a94b1b75779acaec7b2526898574ed0fb1e6f5883",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-10",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-高频因子（十三）：广义拥挤度-230723-20页",
+      "pdfPages": 20,
+      "sha256": "525d33f16c143842c875d41d65659a0036c234edfa5d8a66ec92cdd5cf2ab5e2",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收",
+      "documentTitleChecked": "高频因子（八）：高位成交因子——从量价匹配说起",
+      "documentDateChecked": "2020-09-16",
+      "identityStatus": "文件名与正文冲突；按正文身份使用，不当作文件名对应的新研究"
+    },
+    {
+      "id": "cj-11",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-高频因子（十九）：收益来源基础的因子挖掘方法论二——时间段切割因子-260603-22页",
+      "pdfPages": 22,
+      "sha256": "15771a413cd7a84ebe4616718dcd5b9be330c5605411d871b180bfa727e83b38",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "cj-12",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-高频因子（十八）：收益来源基础的因子挖掘方法论一——维度匹配因子-260227-23页",
+      "pdfPages": 21,
+      "sha256": "a45ec7f955bc89d243ac5c82c9a5db3ea0cff60746a08157b004b5e1a9017df9",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收",
+      "documentTitleChecked": "高频因子（十二）：日内与日间",
+      "documentDateChecked": "2021-06-06",
+      "identityStatus": "文件名与正文冲突；按正文身份使用，不当作文件名对应的新研究",
+      "pageCountNote": "文件名标注23页，实际PDF21页；不能仅凭文件名认定完整性"
+    },
+    {
+      "id": "cj-13",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-高频因子（十六）：2024年有效因子-240910-38页",
+      "pdfPages": 24,
+      "sha256": "246e69915fa1052a281f2a75e91f339097d88dcfe5af28d9cec250d277810e06",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收",
+      "documentTitleChecked": "高频因子（十）：量价关系中的反转微观结构",
+      "documentDateChecked": "2021-01-28",
+      "identityStatus": "文件名与正文冲突；按正文身份使用，不当作文件名对应的新研究",
+      "pageCountNote": "文件名标注38页，实际PDF24页；不能仅凭文件名认定完整性"
+    },
+    {
+      "id": "cj-14",
+      "series": "长江证券-高频因子",
+      "filenameTitle": "长江证券-高频因子（十四）：交易行情高频因子收益来源-240101-21页",
+      "pdfPages": 21,
+      "sha256": "5198c6fcb7a52816fec96f770ac2b9920a41a8c42e6df0cb7f8aef7930c5c85e",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "l2-01",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量LEVEL 2数据因子挖掘系列（一）：多维度解耦的94个大小单因子-240715",
+      "pdfPages": 34,
+      "sha256": "96313e213a0fb284721794d05446d5acb1b3585b52967fab28cb191ca5f82c74",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "l2-02",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量Level 2数据因子挖掘系列（三）：大小单与长短单的241个碰撞火花-240821",
+      "pdfPages": 28,
+      "sha256": "27dcf167ee515713c13682479a886709309d0d34d6c8d6ddea33be76ff8c35e8",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "l2-03",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量Level 2数据因子挖掘系列（二）：订单维度解耦的22个长短单因子-240801",
+      "pdfPages": 21,
+      "sha256": "0eb91a68de12283ba1e891331787f658579cffdb9258cea34583164d744f06eb",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "l2-04",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量Level 2数据因子挖掘系列（五）：牛市中的市价订单与相关因子-241017",
+      "pdfPages": 32,
+      "sha256": "c31b1a2b066b43cdd4bd0da6c99a1785bb8a3b35fc6165dfab28fcb9a6d7cca6",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "l2-05",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量Level 2数据因子挖掘系列（六）：用逐笔订单数据改进分钟频因子-20251204-28页",
+      "pdfPages": 28,
+      "sha256": "489be9adab45fd0318e580a005bc2fe146500b91987e64beb1e837f73dd88364",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    },
+    {
+      "id": "l2-06",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券-海量Level 2数据因子挖掘系列（四）：集合竞价相关因子-240912",
+      "pdfPages": 24,
+      "sha256": "e23ba8ede9c0c20bb4b39973209769f48352577c65037d1d8addd39714ecb071",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "本地OCR；公式数字需图像复核"
+    },
+    {
+      "id": "l2-07",
+      "series": "广发证券-海量Level 2数据因子",
+      "filenameTitle": "广发证券_海量Level2数据因子挖掘系列（八）从高频撤单信息中构建因子-20260807",
+      "pdfPages": 22,
+      "sha256": "b07a778fa4ed8e88e08ece24219a9af2e87edffeba05bd495e0d0264e6799d9d",
+      "readingStatus": "初筛与数据门槛整理；逐公式及绩效复核未完成",
+      "textMethod": "PDF正文已提取；提取不等于逐页人工验收"
+    }
+  ]
+}

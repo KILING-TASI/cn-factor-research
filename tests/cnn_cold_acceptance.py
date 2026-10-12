@@ -49,6 +49,9 @@ def main():
     code("import importlib.util;assert importlib.util.find_spec('portfolio_engine') is None;assert importlib.util.find_spec('cn_data_adapters') is None;assert importlib.util.find_spec('research_workbench') is None")
     run(['-I','-c',prefix+'from cn_factor_research.__main__ import main;raise SystemExit(main())','demo','--out-dir',str(out/'minimum-demo')])
     run(['-I','-c',prefix+'from cn_factor_research.__main__ import main;raise SystemExit(main())','catalog','--json'])
+    run(['-I','-c',prefix+'from cn_factor_research.__main__ import main;raise SystemExit(main())','research-demo','--out-dir',str(out/'new-research-demo')])
+    for entry,action,file in [('daily','generate','daily.json'),('audit','review','audit.json'),('event','study','events.json'),('plan','review','readiness.json')]:
+        run(['-I','-c',prefix+'from cn_factor_research.__main__ import main;raise SystemExit(main())',entry,action,'--input',str(resources/'examples/daily-teaching'/file),'--out-dir',str(out/('new-'+entry))])
     command('validate',source,out/'validate')
     pattern_source=resources/'examples/cnn-teaching/patterns.json'
     for action in ('identify','study'):

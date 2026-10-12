@@ -2,3 +2,5 @@ include README.md README.en.md SKILL.md CNN_RESEARCH.md PATTERN_RESEARCH.md FACT
 recursive-include licenses *
 recursive-include examples *.json *.py
 recursive-include tests *.py
+
+include DAILY_RESEARCH.md RESEARCH_LIBRARY.json try_research.py

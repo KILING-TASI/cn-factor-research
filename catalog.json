@@ -1,9 +1,60 @@
 {
   "schemaVersion": "factor-family-catalog/1",
   "families": [
-    {"id": "candle-rules", "name": "显式K线规则", "version": "original-candle-rules/1", "status": "已实现，描述性研究", "scope": "11种几何/前置趋势规则；不是交易信号认证"},
-    {"id": "ohlcv-cnn", "name": "OHLCV CNN", "version": "ohlcv-conv1d-8x8-average/1", "status": "已实现，可选组件", "scope": "简单总收益回归；不是上涨概率"},
-    {"id": "ohlcv-geometry-cnn", "name": "几何增强CNN", "version": "ohlcv-geometry-conv1d-8x8-average/1", "status": "仅冻结对照", "scope": "同样本误差对照，未接独立实时预测"}
+    {
+      "id": "daily-volume-price",
+      "name": "日频量价定义",
+      "version": "original-daily-volume-price/1",
+      "status": "已实现，8种声明口径",
+      "scope": "原始值、未知、窗口事件；非完整券商复现"
+    },
+    {
+      "id": "frozen-factor-audit",
+      "name": "统一因子验收",
+      "version": "original-frozen-factor-validation/1",
+      "status": "已实现，描述性验收",
+      "scope": "冻结阶段、同样本、行业市值残差、相关与条件成本"
+    },
+    {
+      "id": "event-study",
+      "name": "事件研究",
+      "version": "original-causal-event-study/1",
+      "status": "已实现，描述性研究",
+      "scope": "正负方向、重复触发、已知/未知收益与基准"
+    },
+    {
+      "id": "method-readiness",
+      "name": "方法与数据准备",
+      "version": "original-method-readiness/1",
+      "status": "已实现，声明核对",
+      "scope": "软件与数据分开；不认证高频/基本面已实现"
+    },
+    {
+      "id": "candle-rules",
+      "name": "显式K线规则",
+      "version": "original-candle-rules/1",
+      "status": "已实现，描述性研究",
+      "scope": "11种几何/前置趋势规则；不是交易信号认证"
+    },
+    {
+      "id": "ohlcv-cnn",
+      "name": "OHLCV CNN",
+      "version": "ohlcv-conv1d-8x8-average/1",
+      "status": "已实现，可选组件",
+      "scope": "简单总收益回归；不是上涨概率"
+    },
+    {
+      "id": "ohlcv-geometry-cnn",
+      "name": "几何增强CNN",
+      "version": "ohlcv-geometry-conv1d-8x8-average/1",
+      "status": "仅冻结对照",
+      "scope": "同样本误差对照，未接独立实时预测"
+    }
   ],
-  "plannedNotImplemented": ["完整动量/波动/流动性/规模/估值因子库", "基准超额训练标签与分类模型", "全市场历史成员重建", "完整显著性与回测平台"]
+  "plannedNotImplemented": [
+    "完整动量/波动/流动性/规模/估值因子库",
+    "基准超额训练标签与分类模型",
+    "全市场历史成员重建",
+    "完整显著性与回测平台"
+  ]
 }

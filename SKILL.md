@@ -1,8 +1,8 @@
 ---
 name: cn-factor-research
-description: 从已有行情研究量化因子、K线形态或CNN，核对预测信号、滚动验证、同样本对照和试验记录时使用；不执行交易或替代组合成本/现金审查。
+description: 从已有行情研究日频量价因子、事件、统一验收、K线形态或CNN，核对预测信号、滚动验证、同样本对照和试验记录时使用；不执行交易或替代组合成本/现金审查。
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # 量化因子研究
@@ -11,6 +11,8 @@ metadata:
 
 本仓单独使用：`cn-factor-research demo --out-dir 新目录` 做合成教学，`doctor --json`仅检查软件。CLI安装不等于注册Skill，数据仓/PDE/工作台均非必需依赖。
 
+- 日频因子、样本对照、信号事件或研报方法准备先读 [日频研究](DAILY_RESEARCH.md)。用 `daily generate`、`audit review`、`event study`、`plan review`；合成教学用 `research-demo`。按用户问题组织输入，不让用户填写技术JSON。方向与参数提前冻结，未知项保留；不用目录或研报存在推断代码/数据已就绪。
+- 基本面、新闻、行为及高频方法先查 `plan review` 与参考目录；当前这些专门计算尚未实现，不拿日线近似或当期财报冒充历史高频、披露或成本资料。
 - K线形态先读 [规则与统计](PATTERN_RESEARCH.md)，用 `pattern identify/study`；外形、前置趋势、毛收益和成交条件分别解释。未知不能填零，正收益比例不是交易胜率。
 - CNN先读 [数据与模型契约](CNN_RESEARCH.md)，用 `cnn validate` 检查声明资料，再训练/滚动/预测/对照。训练和预测需可选 `[cnn]`，不自动安装。合成模型、事后训练和回顾性对照不能冒充历史实盘。
 - 现成因子用 [面板与试验](FACTOR_REVIEW.md) 的 `panel/trials`；IC不是准确率，失败试验也留档，不从试验次数推可信概率。

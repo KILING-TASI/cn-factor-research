@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "factor-method-readiness/1",
+  "asOf": "2024-03-11T16:00:00+08:00",
+  "methods": [
+    "daily-core",
+    "factor-audit",
+    "event-study",
+    "fundamental-quality-cashflow",
+    "behavior-salience",
+    "trend-minute",
+    "order-lifecycle",
+    "opening-auction"
+  ],
+  "capabilities": {
+    "daily_ohlcv": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "price_basis": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "calendar": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "historical_members": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "factor_panel": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "frozen_split": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "event_evidence": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    },
+    "outcomes": {
+      "status": "verified",
+      "source": "original-synthetic-teaching",
+      "evidence": "Fictional resource declaration; no real-market certification",
+      "verifiedAt": "2024-01-01T16:00:00+08:00"
+    }
+  }
+}
