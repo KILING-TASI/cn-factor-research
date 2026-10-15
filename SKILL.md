@@ -2,7 +2,7 @@
 name: cn-factor-research
 description: 从已有行情研究日频量价因子、事件、统一验收、K线形态或CNN，核对预测信号、滚动验证、同样本对照和试验记录时使用；不执行交易或替代组合成本/现金审查。
 metadata:
-  version: 0.2.0
+  version: 0.2.1
 ---
 
 # 量化因子研究

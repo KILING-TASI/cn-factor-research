@@ -2,9 +2,9 @@
 
 从声明行情生成信号，核对K线形态、CNN预测与因子面板，保留参数、模型和证据缺口。
 
-[原创代码 MIT](LICENSE) · [发行说明](https://github.com/KILING-TASI/factor-research/releases/tag/v0.2.0) · [运行检查](https://github.com/KILING-TASI/factor-research/actions) · [English](README.en.md)
+[原创代码 MIT](LICENSE) · [发行说明](https://github.com/KILING-TASI/factor-research/releases/tag/v0.2.1) · [运行检查](https://github.com/KILING-TASI/factor-research/actions) · [English](README.en.md)
 
-当前发布：**v0.2.0 · 普通发行版**。Python **3.10+**；基础功能无必需第三方依赖，训练和预测按需安装 `[cnn]`。
+当前发布：**v0.2.1 · 普通发行版**。Python **3.10+**；基础功能无必需第三方依赖，训练和预测按需安装 `[cnn]`。
 
 ## 能解决什么问题
 
@@ -18,7 +18,7 @@
 
 ## 快速开始
 
-下载[完整源码ZIP](https://github.com/KILING-TASI/factor-research/releases/download/v0.2.0/cn-factor-research-v0.2.0-source.zip)，解压后在该目录运行：
+下载[完整源码ZIP](https://github.com/KILING-TASI/factor-research/releases/download/v0.2.1/cn-factor-research-v0.2.1-source.zip)，解压后在该目录运行：
 
 ```console
 python try_demo.py --out-dir reports/first-demo
@@ -32,7 +32,7 @@ python try_demo.py --out-dir reports/first-demo
 
 ## 使用自己的资料
 
-命令行：源码目录运行 `python -m pip install .`，查看 `cn-factor-research --help`。下载wheel时可用 `python -m pip install 路径/cn_factor_research-0.2.0-py3-none-any.whl`。
+命令行：源码目录运行 `python -m pip install .`，查看 `cn-factor-research --help`。下载wheel时可用 `python -m pip install 路径/cn_factor_research-0.2.1-py3-none-any.whl`。
 
 CNN另装 `python -m pip install ".[cnn]"`；CPU安装细节见 [CNN研究](CNN_RESEARCH.md)。不会自动安装或联网取数；安装依赖本身可能联网。
 
@@ -44,7 +44,7 @@ CNN另装 `python -m pip install ".[cnn]"`；CPU安装细节见 [CNN研究](CNN_
 | Python发行包 / 主要命令 / Skill（保留兼容） | `cn-factor-research` |
 | Python模块 | `cn_factor_research` |
 
-仓库已更名为 `factor-research`；安装包、命令和 Skill 名称保留兼容。v0.2.0 的下载文件名也保留原名，使用上方链接即可。
+仓库已更名为 `factor-research`；安装包、命令和 Skill 名称保留兼容。v0.2.1 的下载文件名也保留原名，使用上方链接即可。
 
 先确认来源、日期、当期成员、成交量股数和价格口径，再运行 `cnn validate` 或 `pattern identify`。当前沪深300名单不能回填全部历史。用户自带文件即可研究；数据仓提供可选取数，工作台提供可选组织与解释。
 
@@ -78,3 +78,7 @@ CNN另装 `python -m pip install ".[cnn]"`；CPU安装细节见 [CNN研究](CNN_
 - [安全反馈](SECURITY.md)
 
 原创代码MIT，第三方依赖保留其许可，来源数据不随代码许可转移权利。仓库只含合成教学资料，不包含作者真实行情缓存或官方指数名单。
+
+## 公开底稿验收
+
+[覆盖登记](PUBLIC_VALIDATION.json)区分公开事实、混合教学与尚缺样本。运行 `python tools/verify_public_validation.py --run-checks --output reports/public-validation-v1.json` 可核对冻结文本与已登记反例；重复运行使用新文件。通过不表示重新认证原文或真实市场效果，未取得的样本仍列为缺口。

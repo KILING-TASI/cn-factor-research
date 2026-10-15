@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "public-validation/1",
+  "repository": "factor-research",
+  "registeredOn": "2026-10-15",
+  "hashFormat": "UTF-8 with LF newlines; BOM ignored; original response hashes remain in original receipts",
+  "coverage": "no-eligible-public-inputs",
+  "sourceAuthenticityCertified": false,
+  "evidence": [],
+  "checkFiles": [],
+  "gaps": [
+    "当前主要为合成教学；没有可随包授权且点时完整的实盘股票池回归",
+    "不可将形态/CNN教学表现当真实A股效果"
+  ],
+  "limits": "registry and selected counterexamples; no new original-document authentication or investment-effect certification"
+}
